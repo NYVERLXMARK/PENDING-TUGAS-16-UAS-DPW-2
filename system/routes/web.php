@@ -48,3 +48,4 @@ Route::get('cart', [ClientController::class, 'showCart']);
 Route::get('checkout', [ClientController::class, 'showCheckout']);
 Route::get('masuk', [ClientController::class, 'showMasuk']);
 Route::get('konfirmasi', [ClientController::class, 'showKonfirmasi']);
+Route::post('filter', [ClientController::class, 'filter']);
